@@ -8,6 +8,6 @@ return kittens;
 };
 var kittens = ["Milo", "Otis", "Garfield"]
 function destructivelyPrependKitten(name){
-  kittens.shift ("Bob");
+  kittens.unshift ("Bob");
   return kittens;
 }

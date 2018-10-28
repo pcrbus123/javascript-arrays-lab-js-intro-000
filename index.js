@@ -31,9 +31,3 @@ function prependKitten(name){
   var newKitten= ["Broom", ...kittens];
   return newKitten
 }
-
-
-
-
-
-
